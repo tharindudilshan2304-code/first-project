@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background: #f2f2f2;
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
+        header{
+            background:#008cff;
+            color:white;
+            padding:20px;
+            font-size:26px;
+        }
+        section{
+            padding:20px;
+        }
+        button{
+            padding:10px 20px;
+            font-size:16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Welcome to My First Website</header>
+
+    <section>
+        <h2>Hello! I’m Learning Coding</h2>
+        <p>This is my first web page. I am learning HTML, CSS & JavaScript.</p>
+
+        <button onclick="sayHello()">Click Me</button>
+    </section>
+
+    <script>
+        function sayHello(){
+            alert("Wow! You clicked the button 😎");
+        }
+    </script>
+
+</body>
+</html>
